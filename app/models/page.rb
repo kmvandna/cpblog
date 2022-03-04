@@ -1,5 +1,5 @@
 class Page < ApplicationRecord
- has_many :comments
+ has_many :users
 
 
  validates :title, presence: true
